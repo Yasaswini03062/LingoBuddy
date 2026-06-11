@@ -1,6 +1,9 @@
-# 🎙️ LingoBuddy - AI English Tutor
+# 🎙️ LingoBuddy - AI English Buddy
 
 LingoBuddy is an AI-powered English speaking practice application that helps users improve their spoken English through natural voice conversations.
+
+## The URL to test hte project
+Available at your primary URL https://lingobuddy-udw3.onrender.com
 
 ## ✨ Features
 
@@ -81,8 +84,6 @@ GEMINI_API_KEY=YOUR_GEMINI_API_KEY
    - Grammar correction suggestions
 6. Response is displayed on screen.
 7. Text-to-Speech reads the response aloud.
-## The URL to test hte project 
-Available at your primary URL https://lingobuddy-udw3.onrender.com
 
 ## 💬 Example
 
@@ -121,8 +122,4 @@ Never upload your API keys to GitHub.
 - Progress Tracking Dashboard
 - Multiple AI Tutor Personalities
 - Gamification & Achievements
-
-## 👨‍💻 Author
-
-Developed using Google Gemini AI, Node.js, Express.js, and Web Speech APIs.
 
