@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LingoBuddy - AI English Tutor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Background Effects -->
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        
+        <header class="glass-header">
+            <div class="logo">
+                <i class="fa-solid fa-microphone-lines"></i>
+                <h1>LingoBuddy</h1>
+            </div>
+            <p class="subtitle">Your friendly AI English speaking partner</p>
+        </header>
+
+        <main class="chat-container glass-panel">
+            <div id="chat-box" class="chat-box">
+                <!-- Initial Welcome Message -->
+                <div class="message bot-message">
+                    <div class="avatar"><i class="fa-solid fa-robot"></i></div>
+                    <div class="message-content">
+                        <p>Hey there! I'm LingoBuddy. I'm here to chat with you and help improve your English speaking skills. Just tap the microphone to start talking!</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="controls-container">
+                <div id="status-indicator" class="status-indicator">
+                    <span class="pulse-dot"></span>
+                    <span id="status-text">Ready to listen</span>
+                </div>
+                
+                <button id="mic-btn" class="mic-btn">
+                    <i class="fa-solid fa-microphone"></i>
+                </button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
